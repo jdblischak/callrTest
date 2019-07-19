@@ -21,3 +21,5 @@ Suggests:
     stringr,
     testthat (>= 2.1.0),
     workflowr
+URL: https://github.com/jdblischak/callrTest
+BugReports: https://github.com/jdblischak/callrTest/issues
