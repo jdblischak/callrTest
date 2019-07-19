@@ -23,3 +23,5 @@ Suggests:
     workflowr
 URL: https://github.com/jdblischak/callrTest
 BugReports: https://github.com/jdblischak/callrTest/issues
+Remotes:
+    jdblischak/workflowr

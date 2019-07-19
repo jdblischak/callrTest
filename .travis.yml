@@ -6,5 +6,7 @@ latex: false
 
 matrix:
   include:
-    - r_github_packages: r-lib/callr@v3.2.0
-    - r_github_packages: r-lib/callr
+    - name: "callr 3.2.0"
+      r_github_packages: r-lib/callr@v3.2.0
+    - name: "callr 3.3.0+ (master)"
+      r_github_packages: r-lib/callr
