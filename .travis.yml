@@ -1,0 +1,10 @@
+# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
+
+language: R
+cache: packages
+latex: false
+
+matrix:
+  include:
+    - r_github_packages: r-lib/callr@v3.2.0
+    - r_github_packages: r-lib/callr
