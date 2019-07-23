@@ -6,7 +6,7 @@
 fx <- function() {
   rmd <- fs::file_temp()
   lines <- c("---",
-             "output: workflowr::wflow_html",
+             "output: html_document",
              "---",
              "",
              "```{r chunkname}",
