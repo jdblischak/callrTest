@@ -1,3 +1,5 @@
 ^callrTest\.Rproj$
 ^\.Rproj\.user$
 ^\.travis\.yml$
+^\.circleci$
+^\.circleci/config\.yml$
