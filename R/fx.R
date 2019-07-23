@@ -4,7 +4,7 @@
 #'
 #' @export
 fx <- function() {
-  rmd <- tempfile()
+  rmd <- fs::file_temp()
   lines <- c("---",
              "output: workflowr::wflow_html",
              "---",
