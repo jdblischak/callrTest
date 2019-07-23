@@ -11,4 +11,4 @@ matrix:
     - name: "callr 3.3.0+ (master)"
       r_github_packages: r-lib/callr
     - name: "my fork"
-      r_github_packages: jdblischak/callr
+      r_github_packages: jdblischak/callr@error-env-file
